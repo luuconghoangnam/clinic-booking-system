@@ -5,6 +5,59 @@
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-4.0-purple)](https://getbootstrap.com/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
+## 📸 Screenshots & Demo
+
+### 🏠 Trang chủ
+![Trang chủ](ImagesREADME/homepage1.png)
+*Giao diện trang chủ với slider giới thiệu và QR code*
+
+![Trang chủ 2](ImagesREADME/homepage2.png)
+*Phần giới thiệu dịch vụ và tin tức y tế*
+
+### 👤 Đăng nhập & Đăng ký
+![Đăng nhập bệnh nhân](ImagesREADME/login-patient.png)
+*Form đăng nhập cho bệnh nhân*
+
+![Đăng ký bệnh nhân](ImagesREADME/signup-patient.png)
+*Form đăng ký tài khoản mới*
+
+### 📅 Hệ thống đặt lịch khám
+![Đặt lịch bước 1](ImagesREADME/appointment-step1.png)
+*Bước 1: Chọn bác sĩ và thông tin cơ bản*
+
+![Đặt lịch bước 2](ImagesREADME/appointment-step2.png)
+*Bước 2: Chọn ngày và giờ khám với calendar widget*
+
+![Lịch đặt hẹn](ImagesREADME/calendar-booking.png)
+*Giao diện calendar với các ca làm việc (07:00-09:00, 09:00-11:00, 15:00-17:00, 17:00-19:00)*
+
+### 👤 Quản lý thông tin bệnh nhân
+![Thông tin bệnh nhân](ImagesREADME/patient-info.png)
+*Trang quản lý thông tin cá nhân của bệnh nhân*
+
+### 👨‍⚕️ Dashboard bác sĩ
+![Đăng nhập bác sĩ](ImagesREADME/doctor-login.png)
+*Form đăng nhập cho bác sĩ*
+
+![Thông tin bác sĩ](ImagesREADME/doctor-info.png)
+*Trang quản lý thông tin cá nhân của bác sĩ*
+
+### 🔧 Admin Panel
+![Đăng nhập admin](ImagesREADME/admin-login.png)
+*Giao diện đăng nhập admin*
+
+![Dashboard admin](ImagesREADME/admin-dashboard.png)
+*Dashboard quản trị hệ thống*
+
+### 📰 Quản lý tin tức
+![Tin tức](ImagesREADME/news-page.png)
+*Trang hiển thị danh sách tin tức y tế*
+
+![Chi tiết tin tức](ImagesREADME/news-detail.png)
+*Trang chi tiết một tin tức*
+
+---
+
 ## 📋 Mô tả dự án
 
 Hệ thống quản lý phòng khám đa khoa C&G là một ứng dụng web được phát triển bằng PHP, MySQL và Bootstrap. Hệ thống cung cấp giải pháp quản lý toàn diện cho phòng khám bao gồm quản lý bệnh nhân, bác sĩ, lịch hẹn và tin tức y tế.
@@ -12,6 +65,8 @@ Hệ thống quản lý phòng khám đa khoa C&G là một ứng dụng web đ�
 ## 🎯 Tính năng chính
 
 ### 👥 Quản lý người dùng
+![User Management](ImagesREADME/patient-info.png)
+
 - **Bệnh nhân**: 
   - Đăng ký tài khoản mới
   - Đăng nhập/đăng xuất an toàn
@@ -31,6 +86,8 @@ Hệ thống quản lý phòng khám đa khoa C&G là một ứng dụng web đ�
   - Quản lý tin tức và nội dung
 
 ### 📅 Quản lý lịch hẹn
+![Calendar System](ImagesREADME/calendar-booking.png)
+
 - **Đặt lịch khám trực tuyến** với giao diện calendar trực quan
 - **Hiển thị lịch theo tháng** với các ca làm việc:
   - Ca 1: 07:00 - 09:00
@@ -42,12 +99,16 @@ Hệ thống quản lý phòng khám đa khoa C&G là một ứng dụng web đ�
 - **Hiển thị trạng thái** slot thời gian (trống/đã đặt)
 
 ### 📰 Quản lý tin tức
+![News Management](ImagesREADME/news-page.png)
+
 - Đăng và quản lý tin tức y tế
 - Upload hình ảnh cho tin tức
 - Hiển thị tin tức nổi bật trên trang chủ
 - Phân loại và tìm kiếm tin tức
 
 ### 🏥 Giao diện người dùng
+![Homepage Features](ImagesREADME/homepage2.png)
+
 - **Trang chủ** với slider giới thiệu
 - **Phần giới thiệu** đội ngũ bác sĩ
 - **Form liên hệ** và hỏi đáp
@@ -100,6 +161,7 @@ Alo3/
 │   ├── 📁 model/               # Models  
 │   └── 📁 view/                # Views và templates
 ├── 📁 vendor/                  # Composer packages
+├── 📁 ImagesREADME/            # Ảnh minh họa cho README
 ├── 📄 index.php                # Trang chủ
 ├── 📄 calendar1.php            # Lịch đặt hẹn
 ├── 📄 info_Patient.php         # Thông tin bệnh nhân
@@ -134,7 +196,7 @@ Alo3/
 
 1. **Clone dự án**
 ```bash
-git clone https://github.com/yourusername/alo3-clinic-management.git
+git clone https://github.com/luuconghoangnam/clinic-booking-system.git
 cd alo3-clinic-management
 ```
 
@@ -170,6 +232,7 @@ $database = "clinic_management";
 ## 👤 Tài khoản mặc định
 
 ### 🔐 Admin
+![Admin Login](ImagesREADME/admin-login.png)
 ```
 Username: admin
 Password: admin123
@@ -177,6 +240,7 @@ URL: http://localhost/Alo3/admin/
 ```
 
 ### 👨‍⚕️ Bác sĩ
+![Doctor Login](ImagesREADME/doctor-login.png)
 ```
 Username: doctor1
 Password: doctor123
@@ -184,6 +248,7 @@ URL: http://localhost/Alo3/bacsi/
 ```
 
 ### 👤 Bệnh nhân
+![Patient Signup](ImagesREADME/signup-patient.png)
 ```
 Đăng ký tài khoản mới tại: http://localhost/Alo3/signup.php
 ```
@@ -191,6 +256,8 @@ URL: http://localhost/Alo3/bacsi/
 ## 📱 Tính năng nổi bật
 
 ### 🎨 Giao diện hiện đại
+![Modern UI](ImagesREADME/homepage1.png)
+
 - **Design responsive** tương thích mọi thiết bị
 - **Color scheme chuyên nghiệp**: 
   - Primary: `#01c9f6` (xanh nhạt)
@@ -200,6 +267,8 @@ URL: http://localhost/Alo3/bacsi/
 - **Professional typography** với font Lato
 
 ### 📋 Quản lý lịch thông minh
+![Smart Calendar](ImagesREADME/appointment-step2.png)
+
 ```php
 // Ví dụ code quản lý lịch
 $caLamViec = "<br>
@@ -315,7 +384,7 @@ Nếu bạn tìm thấy bug, vui lòng tạo issue với:
 
 ## 📞 Liên hệ và Support
 
-- **Developer**: [Luu Lam Cong]
+- **Developer**: Luu Lam Cong
 - **Email**: luuconghn.lamcong.contacts@gmail.com
 - **Project Link**: https://github.com/luuconghoangnam/clinic-booking-system.git
 - **Documentation**: [Wiki Link]
@@ -328,7 +397,7 @@ Dự án này được phân phối dưới **MIT License**. Xem file [LICENSE](
 ```
 MIT License
 
-Copyright (c) 2024 [Your Name]
+Copyright (c) 2024 Luu Lam Cong
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -348,9 +417,9 @@ copies of the Software...
 
 ## 📈 Statistics
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/alo3-clinic-management)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/alo3-clinic-management)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/alo3-clinic-management)
+![GitHub stars](https://img.shields.io/github/stars/luuconghoangnam/clinic-booking-system)
+![GitHub forks](https://img.shields.io/github/forks/luuconghoangnam/clinic-booking-system)
+![GitHub issues](https://img.shields.io/github/issues/luuconghoangnam/clinic-booking-system)
 
 ---
 
@@ -358,7 +427,7 @@ copies of the Software...
 
 ⭐ **Nếu bạn thấy dự án hữu ích, hãy cho một star nhé!** ⭐
 
-**Made with ❤️ by [Your Name]**
+**Made with ❤️ by Luu Lam Cong**
 
 [⬆ Back to top](#-hệ-thống-quản-lý-phòng-khám-đa-khoa-cg)
 
